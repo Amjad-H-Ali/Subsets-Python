@@ -17,3 +17,9 @@ def helper(data, subset, i):
 	subset[i] = None
 
 	helper(data, subset, i + 1)	
+
+	# When we add values to the subset
+	subset[i] = data[i]
+
+	helper(data, subset, i + 1)
+	
