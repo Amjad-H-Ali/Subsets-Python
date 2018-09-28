@@ -5,5 +5,5 @@ print("Subsets!")
 # subset: an array that will contain the subsets of data
 # i: the current index.
 # No return value, only prints all subsets
-def subsets(data, subset, i):
-	  
+def helper(data, subset, i):
+	
