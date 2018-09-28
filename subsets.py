@@ -12,3 +12,8 @@ def helper(data, subset, i):
 	# Print the subset
 	if (i == data.length):
 		print(subset)
+
+	# For the subsets containing nothing
+	subset[i] = None
+
+	helper(data, subset, i + 1)	
