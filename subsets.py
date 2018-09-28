@@ -6,4 +6,9 @@ print("Subsets!")
 # i: the current index.
 # No return value, only prints all subsets
 def helper(data, subset, i):
-	
+
+	# When i equals data array length,
+	# It means we have found a subset.
+	# Print the subset
+	if (i == data.length):
+		print(subset)
